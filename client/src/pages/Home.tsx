@@ -570,10 +570,10 @@ export default function Home() {
               Have a project in mind? I'd love to hear about it. Get in touch and let's create something amazing.
             </motion.p>
 
-            <motion.div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12" variants={containerVariants}>
+            <motion.div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12" variants={containerVariants}>
               {/* Phone */}
               <motion.a
-                href="tel:+2347047086101210"
+                href="tel:+2347086101201"
                 className="group p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
                 variants={scaleVariants}
                 whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0, 102, 255, 0.1)" }}
@@ -585,12 +585,12 @@ export default function Home() {
                   <Phone className="w-8 h-8 text-primary mx-auto mb-3" />
                 </motion.div>
                 <h3 className="font-display font-bold mb-2">Phone</h3>
-                <p className="text-sm text-muted-foreground">+234 704 7086101210</p>
+                <p className="text-sm text-muted-foreground">+234 708 610 1201</p>
               </motion.a>
 
               {/* WhatsApp */}
               <motion.a
-                href="https://wa.me/2347047086101210"
+                href="https://wa.me/2347086101201"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
@@ -609,7 +609,7 @@ export default function Home() {
 
               {/* Email */}
               <motion.a
-                href="mailto:scopeman@example.com"
+                href="mailto:sidowu361@gmail.com"
                 className="group p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
                 variants={scaleVariants}
                 whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0, 102, 255, 0.1)" }}
@@ -621,7 +621,26 @@ export default function Home() {
                   <Mail className="w-8 h-8 text-primary mx-auto mb-3" />
                 </motion.div>
                 <h3 className="font-display font-bold mb-2">Email</h3>
-                <p className="text-sm text-muted-foreground">Send me a message</p>
+                <p className="text-sm text-muted-foreground">sidowu361@gmail.com</p>
+              </motion.a>
+
+              {/* TikTok */}
+              <motion.a
+                href="https://www.tiktok.com/@scope514?_r=1&_t=ZS-96qWDQzJTI8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group p-6 bg-card rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
+                variants={scaleVariants}
+                whileHover={{ y: -10, boxShadow: "0 20px 40px rgba(0, 102, 255, 0.1)" }}
+              >
+                <motion.div
+                  animate={{ scale: [1, 1.2, 1] }}
+                  transition={{ duration: 2, repeat: Infinity, delay: 0.6 }}
+                >
+                  <ExternalLink className="w-8 h-8 text-primary mx-auto mb-3" />
+                </motion.div>
+                <h3 className="font-display font-bold mb-2">TikTok</h3>
+                <p className="text-sm text-muted-foreground">Visit my TikTok profile</p>
               </motion.a>
             </motion.div>
 
